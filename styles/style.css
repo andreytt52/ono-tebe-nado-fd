@@ -1,1 +1,106 @@
-/* место для вашего кода */
+body{
+    width: 1100px;
+}
+
+.header{
+    width: 1100px;
+    height: 293px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+}
+
+.header__menu-list {
+display: flex;
+flex-direction: row;
+gap: 40px;
+}
+
+.address{
+margin: 95px 50px 100px 184px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+max-width: 240px;
+justify-self: end;
+}
+
+
+
+.header__logo {
+width: 148px;
+height: 105px;
+}
+
+.header__logo-image {
+ display: block;
+}
+
+.header__menu {
+    margin: 133px 36px 138px 50px;
+}
+
+.cover{
+    width: 1100px;
+    height: 757px;
+    background-image: url(/images/cover.jpg);
+    margin: 0 0 180px;
+}
+
+.lots{
+    width: 1052x;
+    height: 723px;
+    margin: 180px 24px 120px;
+    
+}
+
+.card-lots {
+    display: flex;
+    flex-direction: row;
+}
+
+.about{
+    width: 1052px;
+    height: 595px;
+    margin: 24px;
+    margin: 120px 24px 180px;
+    background-color: black;
+    color:aliceblue
+}
+
+.footer{
+    width: 1100px;
+    height: 180px;
+}
+.images_cover{
+    width: 1100px;
+    height: 757px;
+}
+
+
+
+.about__logo {
+    width: 148px;
+    height: 114px;
+}
+
+.card-lot {
+    background-image: url(/images/card-lot-01.jpg);
+    width: 334px;
+    height: 596px;
+
+}
+
+.card-lot {
+    background-image: url(/images/card-lot-02.jpg);
+    width: 334px;
+    height: 596px;
+    
+}
+
+.card-lot {
+    background-image: url(/images/card-lot-03.jpg);
+    width: 334px;
+    height: 596px;
+
+}
